@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AMasoldt | Artem Masoldt</title>
+    <meta name="description" content="Das Portfolio von Artem Masoldt: Webentwicklung und eigene Projekte.">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <a class="skip-link" href="#main-content">
+        Zum Inhalt springen
+    </a>
+    <header class="site-header">
+        <a class="logo" href="#home">
+            <span class="logo-accent">AM</span>asoldt
+        </a>
+
+        <nav class="main-nav" aria-label="Hauptnavigation">
+            <a href="#home">Home</a>
+            <a href="#ueber-mich">Über mich</a>
+            <a href="#projekte">Projekte</a>
+            <a href="#skills">Skills</a>
+            <a href="#kontakt">Kontakt</a>
+        </nav>
+    </header>
+
+    <main id="main-content" tabindex="-1">
+        <!-- Hauptseite -->
+        <section class="hero" id="home">
+            <p class="hero-label">WEB DEVELOPMENT & IT SOLUTIONS</p>
+
+            <h1>
+                Ideen in
+                <span>digitale Lösungen</span>
+                verwandeln.
+            </h1>
+
+            <p class="hero-description">
+                Ich entwickle eigene Webprojekte und erweitere
+                Schritt für Schritt meine Kenntnisse in der Webentwicklung.
+            </p>
+
+            <div class="hero-actions">
+                <a class="button" href="#projekte">Meine Projekte →</a>
+                <a class="button button-outline" href="#kontakt">Kontakt</a>
+            </div>
+        </section>
+        <!-- Ueber Mich -->
+        <section class="about" id="ueber-mich">
+            <p class="section-label">ÜBER MICH</p>
+
+            <h2>Mein Weg in die Webentwicklung</h2>
+
+            <p class="about-description">
+                Ich bin Artem Masoldt aus Aulendorf.
+                Mit HTML und CSS habe ich die Grundlage gelegt.
+                Jetzt vertiefe ich JavaScript und setze
+                eigene Ideen in die Praxis um.
+            </p>
+        </section>
+        <!-- Projekte -->
+        <section class="projects" id="projekte">
+            <p class="section-label">MEINE PROJEKTE</p>
+
+            <h2>Aktuelle und geplante Projekte</h2>
+
+            <div class="project-grid">
+                <article class="project-card">
+                    <img class="project-image" src="images/hero.webp" alt="Arbeitsplatz mit dem AMasoldt-Logo"
+                        loading="lazy">
+                    <p class="project-status">In Entwicklung</p>
+                    <h3><span class="logo-accent">AM</span>asoldt Portfolio</h3>
+                    <p>
+                        Meine persönliche Website mit HTML,
+                        CSS und JavaScript.
+                    </p>
+                    <p class="project-tech">HTML · CSS · JavaScript</p>
+                </article>
+
+                <article class="project-card">
+                    <img class="project-image" src="images/jarvis.webp"
+                        alt="Designkonzept des lokalen KI-Assistenten JARVIS" loading="lazy">
+                    <p class="project-status">In Entwicklung</p>
+                    <h3>JARVIS</h3>
+                    <p>
+                        Mein lokaler KI-Assistent mit Python,
+                        Gesprächsverlauf und eigener Speicherfunktion.
+                    </p>
+                    <p class="project-tech">Python · LM Studio · JSON</p>
+                </article>
+
+                <article class="project-card">
+                    <img class="project-image" src="images/pizzeria.webp"
+                        alt="Website-Konzept für eine fiktive Pizzeria" loading="lazy">
+
+                    <p class="project-status">Geplant · Demo-Projekt</p>
+
+                    <h3>Pizzeria Website</h3>
+
+                    <p>
+                        Geplantes Demo-Projekt für eine fiktive Pizzeria:
+                        Speisekarte, Öffnungszeiten und Kontakt.
+                    </p>
+                    <p class="project-tech">Geplant: HTML · CSS · JavaScript</p>
+                </article>
+            </div>
+        </section>
+        <!-- Skills -->
+        <section class="skills" id="skills">
+            <p class="section-label">MEINE SKILLS</p>
+
+            <h2>Technologien, mit denen ich arbeite</h2>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <h3>HTML</h3>
+                    <p>Grundlagen angewendet</p>
+                </article>
+
+                <article class="skill-card">
+                    <h3>CSS</h3>
+                    <p>Grundlagen angewendet</p>
+                </article>
+
+                <article class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>Im Lernprozess</p>
+                </article>
+
+                <article class="skill-card">
+                    <h3>Python</h3>
+                    <p>Einstieg mit JARVIS</p>
+                </article>
+            </div>
+        </section>
+        <!-- Kontakt-->
+        <section class="contact" id="kontakt">
+            <p class="section-label">KONTAKT</p>
+
+            <h2>Lassen Sie uns ins Gespräch kommen</h2>
+
+            <p class="contact-description">
+                Ich freue mich über Ihre Nachricht
+                und den Austausch zu neuen Ideen.
+            </p>
+
+            <a class="button" href="mailto:artem.masoldt@gmx.de">
+                Nachricht schreiben →
+            </a>
+            <p class="contact-description">
+                E-Mail: artem.masoldt@gmx.de
+            </p>
+        </section>
+    </main>
+    <!--Фоотер-->
+    <footer class="site-footer">
+        <a class="logo" href="#home">
+            <span class="logo-accent">AM</span>asoldt
+        </a>
+
+        <p>© <span id="current-year">2026</span> Artem Masoldt</p>
+        <nav class="footer-links" aria-label="Rechtliche Informationen">
+            <a href="impressum.html">Impressum</a>
+            <a href="datenschutz.html">Datenschutz</a>
+        </nav>
+    </footer>
+</body>
+
+
+</html>
